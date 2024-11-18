@@ -12,7 +12,11 @@ function Infos() {
 
     return (
         <>
-        <InfoBrasil infoCard={infoCard}/>
+        <h1 className="text-verde-texto text-6xl font-bold ml-80">No Brasil:</h1>
+        <div className="flex justify-center flex-wrap items-center gap-24 max-w-2xl m-auto my-20">
+            <InfoBrasil infoCard={infoCard}/>
+        </div>
+        
         </>
     );
 }

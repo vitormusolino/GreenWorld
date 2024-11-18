@@ -7,8 +7,8 @@ function Home() {
     return ( <>
               <GreenWorld/>  
               <Missao/>
-              <Comunidade/>
               <Infos/>
+              <Comunidade/>
             </> );
 }
 
