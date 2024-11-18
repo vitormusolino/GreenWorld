@@ -6,7 +6,7 @@ export default function Login({isLogged, handleLogin}){
             {isLogged && ''}
             <button 
             onClick={handleLogin}
-            className="px-6 py-1 bg-blue-500 rounded-sm"> 
+            className="px-6 py-1 bg-verde-escuro text-white rounded-sm text-lg"> 
             {isLogged ? "Logout" : "Login"} </button>
         </div>
         </>
