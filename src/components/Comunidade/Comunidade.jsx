@@ -10,7 +10,7 @@ function Comunidade() {
                         <p className="text-wrap text-verde-texto text-lg font-bold max-w-lg text-center mt-2">
                             Compartilhe suas ideias com pessoas com o mesmo intuito que você
                         </p>
-                        <a href="" className='flex mt-10 px-10 py-5 bg-verde-claro text-white font-bold rounded-lg'>CLIQUE AQUI <img src={Discord} alt="" className='max-w-8 ml-5' /></a>
+                        <a href="https://discord.gg/BJNdECER64" className='flex mt-10 px-10 py-5 bg-verde-claro text-white font-bold rounded-lg'>CLIQUE AQUI <img src={Discord} alt="" className='max-w-8 ml-5' /></a>
                     </div>
                 </div>
 

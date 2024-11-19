@@ -1,5 +1,9 @@
+import ComunidadeComp from '../components/Comunidade/Comunidade'
+
 function Comunidade() {
-    return ( <></> );
+    return ( <>
+                <ComunidadeComp/>
+            </> );
 }
 
 export default Comunidade;
