@@ -27,7 +27,7 @@ function EnergiaFav() {
 
     return ( <>
             <h1 className='text-5xl text-verde-texto text-center font-bold mb-20'>Escolha sua Favorita:</h1>
-            <div className='flex justify-center gap-32 mb-32'>
+            <div className='flex flex-wrap justify-center gap-32 mb-32'>
                <CardsEnergia EnergiaCards={EnergiaCards}/>
             </div>
             </> );

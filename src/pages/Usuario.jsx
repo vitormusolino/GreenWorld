@@ -20,8 +20,13 @@ function Usuario() {
     }, []);
 
     return (
+        <>
         <div>
-            <h1 className='text-5xl text-verde-texto text-center font-bold mb-20'>
+            <h1 className='text-5xl text-verde-texto font-bold text-center p-5'>Página do usuário</h1>
+            <p className='text-2xl text-verde-escuro text-center font-semibold pb-28 mt-10'>Seja bem vindo a sua página do usuário!</p>
+        </div>
+        <div>
+            <h1 className='text-3xl text-verde-texto text-center font-bold mb-20'>
                 Suas Energias Favoritas:
             </h1>
             <div className='flex justify-center gap-32 mb-32'>
@@ -41,6 +46,7 @@ function Usuario() {
                 )}
             </div>
         </div>
+        </>
     );
 }
 
