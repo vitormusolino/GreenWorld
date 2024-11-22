@@ -7,7 +7,7 @@ import Footer from '../components/Footer/Footer';
 
 function Usuario() {
     const [usuarios, setUsuarios] = useState([]);
-    const [energiasFav, setEnergiasFav] = useState([]);
+    const [energiasFavoritas, setEnergiasFavoritas] = useState([]);
 
     const energiaImagens = {
         'Energia Eólica': Eolica,
@@ -17,8 +17,8 @@ function Usuario() {
     };
 
     useEffect(() => {
-        const favoritas = JSON.parse(localStorage.getItem('energiasFav')) || [];
-        setEnergiasFav(favoritas);
+        const favoritas = JSON.parse(localStorage.getItem('energiasFavoritas')) || [];
+        setEnergiasFavoritas(favoritas);
     }, []);
 
     const associarEnergiaFavorita = (usuarios) => {
@@ -30,8 +30,8 @@ function Usuario() {
     };
 
     useEffect(() => {
-        const favoritas = JSON.parse(localStorage.getItem('energiasFav')) || [];
-        setEnergiasFav(favoritas);
+        const favoritas = JSON.parse(localStorage.getItem('energiasFavoritas')) || [];
+        setEnergiasFavoritas(favoritas);
         fetch('https://jsonplaceholder.typicode.com/users')
             .then(response => response.json())
             .then(data => {
@@ -52,8 +52,8 @@ function Usuario() {
                 Suas Energias Favoritadas:
             </h1>
             <div className='flex justify-center gap-32 mb-32'>
-                {energiasFav.length > 0 ? (
-                    energiasFav.map(energia => (
+                {energiasFavoritas.length > 0 ? (
+                    energiasFavoritas.map(energia => (
                         <div key={energia} className="flex flex-col bg-verde-escuro rounded-lg">
                             <img 
                                 src={energiaImagens[energia]} 
