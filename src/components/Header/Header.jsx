@@ -22,7 +22,6 @@ export default function Header(){
                                 <li className="hover:text-verde-texto duration-500"><NavLink to='/'>Home</NavLink></li> 
                                 <li className="hover:text-verde-texto duration-500"><NavLink to='/sobre'>Sobre</NavLink></li>
                                 <li className="hover:text-verde-texto duration-500"><NavLink to='/comunidade'>Comunidade</NavLink></li>
-                                {isLogged && <li className="hover:text-verde-texto duration-500"><NavLink to='/chat'>Chat</NavLink></li>}
                                 {isLogged && <li className="hover:text-verde-texto duration-500"><NavLink to='/usuario'>Usuário</NavLink></li>}
                              
                             </ul>
