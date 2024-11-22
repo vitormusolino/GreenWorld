@@ -6,7 +6,7 @@ A plataforma foi construída com React(Vite), utilizando as bibliotecas react-ro
 ## **Tecnologias Utilizadas 🚀**
 **-React:** Framework JavaScript para a construção da interface.<br>
 
-**react-router-dom:** Biblioteca para navegação entre páginas dentro da aplicação. <br> 
+**-React-router-dom:** Biblioteca para navegação entre páginas dentro da aplicação. <br> 
 
 **-Tailwind CSS:** Framework CSS para estilização rápida. <br>
 
