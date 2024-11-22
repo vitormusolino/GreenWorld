@@ -4,15 +4,18 @@ Greenworld é uma plataforma focada em conscientizar e fornecer suporte no contr
 A plataforma foi construída com React(Vite), utilizando as bibliotecas react-router-dom para navegação entre páginas e Tailwind CSS para estilização, proporcionando uma experiência de usuário moderna e eficiente. 🎨🖥️
 
 ## **Tecnologias Utilizadas 🚀**
--React: Framework JavaScript para a construção da interface.<br>
-react-router-dom: Biblioteca para navegação entre páginas dentro da aplicação. <br> 
--Tailwind CSS: Framework CSS para estilização rápida. <br>
--API JSONPlaceholder: Utilizada para simular dados de usuários, com o endpoint:<br>
+**-React:** Framework JavaScript para a construção da interface.<br>
+
+**react-router-dom:** Biblioteca para navegação entre páginas dentro da aplicação. <br> 
+
+**-Tailwind CSS:** Framework CSS para estilização rápida. <br>
+
+**-API JSONPlaceholder:** Utilizada para simular dados de usuários, com o endpoint:<br>
 -https://jsonplaceholder.typicode.com/users. 
 
 ## **Como Rodar o Projeto 🔧**
 1. **Clonar o Repositório**<br>
-git clone https://github.com/SEU_USUARIO/greenworld.git<br>
+git clone https://github.com/seu_usuario/GreenWorld.git<br>
 cd greenworld
 
 2. **Instalar as Dependências**<br>
