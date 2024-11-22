@@ -30,6 +30,9 @@ npm install
 3. **Rodar a Aplicação**<br>
 npm run dev<br>
 
+**Vercel:**<br>
+**https://green-world-sable.vercel.app/**
+
 ## **Licença 📝**<br>
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes. 📜
 
