@@ -20,7 +20,7 @@ A plataforma foi construída com React(Vite), utilizando as bibliotecas react-ro
 
 ## **Como Rodar o Projeto 🔧**
 1. **Clonar o Repositório**<br>
-git clone https://github.com/seu_usuario/GreenWorld.git<br>
+git clone https://github.com/vitormusolino/GreenWorld.git<br>
 cd greenworld
 
 2. **Instalar as Dependências**<br>
