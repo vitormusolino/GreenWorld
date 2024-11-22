@@ -3,6 +3,7 @@ import Biomassa from '../assets/Biomassa.jpg';
 import Hidreletrica from '../assets/Hidreletricas.jpg';
 import PlacaSolar from '../assets/PlacasSolares.jpg';
 import Eolica from '../assets/EnergiaEolica.jpg';
+import Footer from '../components/Footer/Footer';
 
 function Usuario() {
     const [usuarios, setUsuarios] = useState([]);
@@ -90,6 +91,7 @@ function Usuario() {
                     <p className="text-verde-escuro">Nenhum usuário encontrado.</p>
                 )}
             </div>
+            <Footer/>
         </>
     );
 }

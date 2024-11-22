@@ -3,6 +3,7 @@ import Hidreletrica from '../assets/Hidreletricas.jpg'
 import PlacaSolar from '../assets/PlacasSolares.jpg'
 import Eolica from '../assets/EnergiaEolica.jpg'
 import { useParams } from 'react-router-dom';
+import Footer from '../components/Footer/Footer';
 
 function EnergiaPage() {
     const { id } = useParams();
@@ -32,25 +33,37 @@ function EnergiaPage() {
     const energia = energiaDetalhes[id];
 
     return (
-        <div>
-            {energia ? (
-                <>
-                    <h1 className='text-3xl text-verde-texto text-center font-bold mt-10'>{id}</h1>
-                    <div className='flex justify-center mt-10'>
-                        <img src={energia.imagem} alt={id} className="max-w-96 rounded-lg" />
-                        <div className='flex flex-col ml-5'>
-                            <p className='text-lg font-semibold text-verde-texto'>{energia.descricao}</p>
-                            <p className='mt-10 text-xl text-verde-claro font-bold'><strong>Benefícios:</strong></p>  
-                            <p>{energia.beneficios}</p>  
-                        </div>
-                    </div>
-                    
-                </>
-            ) : (
-                <p>Energia não encontrada!</p>
-            )}
-        </div>
+        <>
+            <div>
+                <div>
+                    {energia ? (
+                        <>
+                            <h1 className='text-3xl text-verde-texto text-center font-bold mt-20'>{id}</h1>
+                            <div className='flex justify-center mt-10'>
+                                <img src={energia.imagem} className="max-w-96 rounded-lg" />
+                                <div className='flex flex-col ml-5'>
+                                    <p className='text-lg font-semibold text-verde-texto'>{energia.descricao}</p>
+                                    <p className='mt-10 text-xl text-verde-claro font-bold'><strong>Benefícios:</strong></p>  
+                                    <p>{energia.beneficios}</p>  
+                                </div>
+                            </div>
+                            
+                        </>
+                    ) : (
+                        <p>Energia não encontrada!</p>
+                    )}
+                </div>
+                
+            </div>
+            <div className='mt-52'>
+            <Footer/>
+            </div>
+        </>
+        
+        
     );
+
+
 }
 
 export default EnergiaPage;
