@@ -4,9 +4,9 @@ Greenworld é uma plataforma focada em conscientizar e fornecer suporte no contr
 A plataforma foi construída com React(Vite), utilizando as bibliotecas react-router-dom para navegação entre páginas e Tailwind CSS para estilização, proporcionando uma experiência de usuário moderna e eficiente. 🎨🖥️
 
 ## **Integrantes 💡:**
-**-Caio de Conti Bucciarelli**<br>
-**-Gabriel Escobosa Guerreiro Vallejo**<br>
-**-Vitor Musolino Teixeira**<br>
+**- Caio de Conti Bucciarelli ( RM = 554899 )**<br>
+**- Gabriel Guerreiro Escobosa Vallejo ( RM = 554973 )**<br>
+**- Vitor Musolino Teixeira ( RM = 555012 )**<br>
 
 ## **Tecnologias Utilizadas 🚀**
 **-React:** Framework JavaScript para a construção da interface.<br>
